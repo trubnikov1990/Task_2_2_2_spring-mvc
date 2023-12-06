@@ -12,7 +12,7 @@ public class CarController {
 
   public final CarServiceImp carServiceImp;
 
-  @Autowired
+
   public CarController(CarServiceImp carServiceImp) {
     this.carServiceImp = carServiceImp;
   }
